@@ -1,0 +1,1744 @@
+/* x-large devices  */
+@media (min-width: 1200px) and (max-width: 1399.98px) { }
+
+/* large devices  */
+@media (min-width: 992px) and (max-width: 1199.98px) { }
+
+/* medium devices  */
+@media (min-width: 768px) and (max-width: 991.98px) {
+           /* navbar part start  */
+           .navbar-brand img {
+            width: 140px;
+            /* margin-left: 25px; */
+            margin-right: 200px;
+        }
+        .navbar-toggler{
+            margin-top: 10px;
+            font-size: 27px;
+            color: #944bff;
+            transition: .4s;
+            
+        }
+        .navbar-toggler i:hover{
+            color: mediumvioletred;
+        }
+        .navbar-toggler {
+            color: #944bff;
+            transition: .4s;
+        }
+        .navbar-toggler:hover {
+            color: mediumvioletred;
+        }
+        .navbar-nav {
+            text-align: center;
+        }
+        .nav-item {
+            margin: 10px 20px 0px 20px;
+        }
+        .navber_button {
+            margin: 0 auto;
+            margin-top: 8px;
+            margin-bottom: 8px;
+            justify-content: center;
+        }
+        .data-bs-toggle{
+            border: none;
+        }
+        /* navbar part end */
+        /* banner part start  */
+        #banner {
+            padding: 150px 0px 57px 0px;
+        }
+        .banner_left_image {
+            width: 360px;
+            left: -367px;
+            height: 450px;
+        }
+        .banner_left_image img{
+            height: 450px;
+        }
+        .banner_image_part {
+            margin-left: 348px;
+            margin-top: 10px;
+        }
+
+        .up_text_part {
+            margin-top: 15px;
+            text-align: center;
+            margin-bottom: 0px;
+        }
+        .banner_counter_text {
+            /* margin-left: 10px; */
+            text-align: left !important;
+        }
+        .banner_counter_text h1 {
+            font-size: 220px;
+            line-height: 256px;
+            margin-left: 25px;
+
+        }
+
+        .banner_btn_text {
+            margin-top: 17px;
+            padding: 0 30px;
+        }
+        .banner_btn_text p{
+            line-height: 23px;
+        }
+        .bottom_banner_button {
+            margin-left: 30px !important;
+
+        }
+        /*  */
+        .counter_all_after {
+            margin-top: -40px;
+        }
+        .counter_banner_one {
+            width: 234px;
+            height: 176px;
+        }
+        .counter_banner_two {
+            width: 234px;
+            height: 180px;
+        }
+        .counter_banner_three {
+            width: 234px;
+            height: 185px;
+        }
+
+        .banner_counter_text_up h3 {
+            padding: 28px 0px;
+            font-size: 40px;
+        }
+        .banner_counter_text_middle h3 {
+            font-size: 40px;
+        }
+        .banner_counter_text_bottom p {
+            font-size: 12px;
+        }
+        /*  */
+        /* banner part end */
+        /* related game part satrt   */
+        .related_div_width {
+            width: 240px;
+        }
+        #related_game_banner {
+            padding: 120px 0px 55px 0px;
+        }
+        .related_game_overly_part .text_part {
+            padding-top: 65px;
+        }
+        .related_game_overly_part .text_part h3 {
+            font-size: 19px;
+        }
+        .related_game_button a {
+            margin-top: 15px;
+            padding: 11px 20px;
+            font-size: 15px;
+            border-bottom: 4px solid #3a0090;
+        }
+        /* related game part end */
+        /* unloackfree spin part start  */
+        #unlock {
+            padding-top: 60px;
+        }
+        .unlock_left_image_responsive {
+            width: 360px;
+        }
+        .unlock_left_image img{
+            width: 300px;
+        }
+        .unlock_up_text p {
+            padding-top: 8px;
+            font-size: 13px;
+            line-height: 21px;
+        }
+        .unlock_up_text h6 {
+            padding-top: 10px;
+            padding-bottom: 25px;
+            font-size: 13px;
+            line-height: 21px;
+        }
+        .unlock_up_button a {
+            padding: 11px 20px;
+            font-size: 18px;
+        }
+        /* unloackfree spin part end */
+        /* pricing_plan_part_responsive part start  */
+        #pricing_plan {
+            padding-top: 45px;
+        }
+        .pricing_up_text {
+            margin-bottom: 20px;
+        }
+        .pricing_plan_part_responsive {
+            width: 240px;
+        }
+
+        .pricing_plan_hover_text a {
+            font-size: 16px;
+            line-height: 45px;
+        }
+        .pricing_plan_hover_part {
+            height: 19px;
+        }
+        .pricing_plan_part:hover .pricing_plan_hover_part{
+            height: 45px;
+        }
+        .pricing_up_text_left_part h3 {
+            font-size: 26px;
+            padding-top: 30px;
+        }
+        .pricing_up_text_left_part h2 {
+            font-size: 40px;
+            padding-top: 20px;
+        }
+        .pricing_bottom_text_left_part p {
+            padding-top: 27px;
+            font-size: 14px;
+            line-height: 28px;
+        }
+        .pricing_up_text_left_part p::after {
+            top: 45px;
+        }
+        .pricing_button a {
+            padding: 11px 20px;
+            font-size: 14px;
+        }
+        .pricing_left_part {
+            height: 360px;
+        }
+        .pricing_plan_part {
+            height: 365px;
+        }
+        /* pricing_plan_part_responsive part end */
+        /* Frequently Ask Questions part start  */
+        #ask_question_part {
+            padding: 45px 0px;
+        }
+        .ask_question_part_responsive_top{
+            width: 340px;
+        }
+        .ask_question_part_responsive{
+            width: 380px;
+        }
+        .ask_question_up_text h3 {
+            font-size: 18px;
+            padding-bottom: 43px;
+        }
+
+        .faq_question h3 {
+            color: #fff;
+            font-size: 13px;
+            margin-left: 12px;
+        }
+        .faq_question i {
+            margin-right: 9px;
+            line-height: 9px;
+        }
+        .faq_answer p {
+            padding: 13px 0px;
+            margin-left: 17px;
+            font-size: 12px;
+            line-height: 17px;
+        }
+
+        .time_remaining_text h3 {
+            font-size: 16px;
+        }
+        .countdown_one h2 {
+            font-size: 16px;
+            padding: 10px 10px 0px 10px;
+        }
+        .countdown_one h3 {
+            font-size: 16px;
+            padding: 12px 10px 10px 10px;
+        }
+        .countdown_one {
+            margin-left: 20px;
+        }
+
+        .tournaments_member_part {
+            height: 246px;
+            margin-top: 50px;
+        }
+        .member_name h3 {
+            font-size: 13px;
+            min-width: 120px;
+        }
+        .total_amaount h5 {
+            font-size: 13px;
+        }
+        .member_one {
+            padding-bottom: 40px;
+        }
+        .member_one::after {
+            top: 40px;
+        }
+        /* Frequently Ask Questions part end */
+        /* payment_method_responsive_up part start  */
+        .payment_method_responsive_up{
+            width: 370px;
+        }
+        .payment_method_responsive{
+            width: 350px;
+        }
+        .payment_method_up_text h3 {
+            font-size: 28px;
+            margin-bottom: 25px;
+        }
+        .payment_method_item button{
+            width: 50px;
+        }
+        .payment_method_item button img{
+            width: 100%;
+        }
+        .payment_method_item button {
+            margin-right: 6px;
+        }
+        #payment_method {
+            border-bottom: 4px solid #3a0090;
+        }
+        .payment_method_item {
+            margin-top: 32px;
+        }
+        /* payment_method_responsive_up part end */
+        /* about homepage_about_responsive_up */
+        .homepage_about_responsive_up{
+            width: 250px;
+        }
+        .homepage_about_responsive{
+            width: 200px;
+        }
+
+        .about_left_part .up_text h3 {
+            font-size: 26px;
+            margin-bottom: 23px;
+        }
+        .about_left_part .middle_text p {
+            font-size: 12px;
+            line-height: 21px;
+            margin-bottom: 30px;
+        }
+
+        .about_left_part .button_part button {
+            font-size: 18px;
+            min-width: 46px;
+            line-height: 41px;
+            margin-right: 7px;
+        }
+
+        /*  */
+        .important_link_middle p {
+            font-size: 14px;
+            line-height: 38px;
+        }
+        .important_link_middle span {
+            font-size: 14px;
+            line-height: 38px;
+        }
+        /*  */
+
+        .security_info_part .one .icon_part img{
+            width: 55px;
+        }
+        .security_info_part .text_part p {
+            font-size: 14px;
+            line-height: 19px;
+            margin-left: 30px;
+            margin-top: 10px;
+        }
+        /* about homepage_about_responsive_up */
+
+        /* about us part start  */
+        /* about us part start  */
+        .about_banner_text {
+            padding: 0px 0px 76px 0;
+        }
+        #about_unlock {
+            padding: 140px 0px 50px 0px;
+        }
+
+        .watch_demo .demo_hover a {
+            font-size: 14px;
+            padding: 9px 13px;
+            margin-top: 10px;
+        }
+        .watch_demo i {
+            padding: 18px;
+            margin: 4px 15px 0px 30px;
+            font-size: 15px;
+        }
+        .vbox-container {
+            margin-left: -76px;
+        }
+        /*  */
+        #about_us_related_game_banner {
+            padding: 50px 0px 75px 0px;
+        }
+        .about_us_related_game_image {
+            width: 228px;
+        }
+        .about_us_related_game_image {
+            margin-left: 6px;
+        }
+        .about_us_related_game_overly_part .about_us_text_part {
+            padding-top: 65px;
+        }
+        .about_us_related_game_overly_part .about_us_text_part h3 {
+            font-size: 20px;
+        }
+
+        .about_us_related_game_button a {
+            margin-top: 16px;
+            padding: 10px 20px;
+            font-size: 16px;
+            border-bottom: 4px solid #3a0090;
+        }
+        /*  */
+        /* about us part end */
+        /* about us part end */
+
+        /* game part start  */
+        /* game part start  */
+        /* banner  */
+        .games_banner_text {
+            padding: 0px 0px 80px 0;
+        }
+        /* banner  */
+        /* related game part start  */
+        #games_related_game_banner {
+            padding: 130px 0px 40px 0px;
+        }
+        .games_related_game_text {
+            padding-bottom: 30px;
+        }
+
+        .games_related_game_overly_part .games_text_part {
+            padding-top: 60px;
+        }
+        .games_related_game_button a {
+            margin-top: 20px;
+            padding: 10px 20px;
+            font-size: 18px;
+            border-bottom: 5px solid #3a0090;
+        }
+        /* related game part end */
+        /* game part end */
+        /* game part end */
+
+        /* Our Pricing Plan part start  */
+        /* Our Pricing Plan part start  */
+        #plans_pricing_plan {
+            padding-top: 130px;
+        }
+        .plans_pricing_up_text {
+            margin-bottom: 30px;
+        }
+
+
+        .plans_pricing_up_text {
+            margin-bottom: 20px;
+        }
+        .plans_pricing_plan_part_responsive {
+            width: 240px;
+        }
+
+        .plans_pricing_plan_hover_text a {
+            font-size: 16px;
+            line-height: 45px;
+        }
+        .plans_pricing_plan_hover_part {
+            height: 19px;
+        }
+        .plans_pricing_plan_part:hover .plans_pricing_plan_hover_part{
+            height: 45px;
+        }
+        .plans_pricing_up_text_left_part h3 {
+            font-size: 26px;
+            padding-top: 30px;
+        }
+        .plans_pricing_up_text_left_part h2 {
+            font-size: 40px;
+            padding-top: 20px;
+        }
+        .plans_pricing_bottom_text_left_part p {
+            padding-top: 27px;
+            font-size: 14px;
+            line-height: 28px;
+        }
+        .plans_pricing_up_text_left_part p::after {
+            top: 45px;
+        }
+        .plans_pricing_button a {
+            padding: 11px 20px;
+            font-size: 14px;
+        }
+        .plans_pricing_left_part {
+            height: 360px;
+        }
+        .plans_pricing_plan_part {
+            height: 365px;
+        }
+        /* Our Pricing Plan part end */
+        /* Our Pricing Plan part end */
+
+        /* contact us part start  */
+        /* contact us part start  */
+        .maps_overly {
+            padding: 170px 0px 70px 0px;
+        }
+
+        .maps_content .icon a i {
+            font-size: 20px;
+            border-bottom: 5px solid #3a0090;
+            line-height: 65px;
+            width: 64px;
+            height: 70px;
+        }
+        .maps_content .text h3 {
+            font-size: 20px;
+            margin-bottom: 18px;
+        }
+        .maps_content .text p {
+            font-size: 12px;
+            line-height: 20px;
+        }
+        .maps_content .text {
+            margin-left: 15px;
+        }
+        /* contact us part end */
+        /* contact us part end */
+
+        /* signup_left_image_part_responsive_up start  */
+        /* signup_left_image_part_responsive_up start  */
+        #signup {
+            padding-top: 150px;
+        }
+        .signup_last_left_part {
+            width: 163px;
+        }
+        .signup_left_image_part_responsive_up{
+            width: 330px;
+        }
+        .signup_left_image_part_responsive{
+            width: 390px;
+        }
+
+        .signup_left_image_part img {
+            width: 533px;
+            height: 737px;
+        }
+        .signup_left_image_part img {
+            margin-left: -113px;
+            margin-top: -200px;
+        }
+
+
+        .signup_up_text h3 {
+            font-size: 25px;
+        }
+        .signup_up_text p {
+            font-size: 14px;
+            margin-bottom: 30px;
+        }
+
+        .full_name {
+            width: 175px;
+            padding: 11px 0px;
+            font-size: 13px;
+        }
+        .e-mail_here_signup {
+            padding: 11px 0px;
+            font-size: 13px;
+        }
+        .mail_hare_signup {
+            margin-top: 30px;
+            margin-bottom: 30px;
+        }
+        .signup_last_left_part p {
+            font-size: 13px;
+            line-height: 15px;
+        }
+        .signup_last_right_part .text_part p {
+            font-size: 13px;
+            margin-left: 0px;
+            line-height: 15px;
+        }
+
+        .signup_last_right_part .button_part {
+            /* width: 50px; */
+            display: flex;
+        }
+        .signup_last_right_part .button_part button {
+            width: 45px;
+            height: 45px;
+            margin-left: 12px;
+            font-size: 14px;
+        }
+        .signup_last_right_part .text_part p {
+            font-size: 12px;
+            margin-left: 45px;
+            line-height: 15px;
+        }
+        .signup_last_left_part {
+            padding-top: 28px;
+        }
+        .signup_last_right_part .text_part {
+            padding-top: 28px;
+        }
+        .signup_last_right_part .button_part {
+            padding-top: 15px;
+        }
+        /* signup_left_image_part_responsive_up end */
+        /* signup_left_image_part_responsive_up end */
+
+
+        /* login_signup_left_image_part_responsive_up start  */
+        /* login_signup_left_image_part_responsive_up start  */
+        #login_signup {
+            padding-top: 150px;
+        }
+        .login_signup_last_left_part {
+            width: 163px;
+        }
+        .login_signup_left_image_part_responsive_up{
+            width: 330px;
+        }
+        .login_signup_left_image_part_responsive{
+            width: 390px;
+        }
+
+        .login_signup_left_image_part img {
+            width: 533px;
+            height: 660px;
+        }
+        .login_signup_left_image_part img {
+            margin-left: -113px;
+            margin-top: -200px;
+        }
+
+
+        .login_signup_up_text h3 {
+            font-size: 25px;
+        }
+        .login_signup_up_text p {
+            font-size: 14px;
+            margin-bottom: 30px;
+        }
+
+        .login_full_name {
+            width: 175px;
+            padding: 11px 0px;
+            font-size: 13px;
+        }
+        .login_e-mail_here_signup {
+            padding: 11px 0px;
+            font-size: 13px;
+        }
+        .login_mail_hare_signup {
+            margin-top: 30px;
+            margin-bottom: 30px;
+        }
+        .login_signup_last_left_part a {
+            font-size: 13px;
+            line-height: 15px;
+        }
+        .login_signup_last_right_part .login_text_part p {
+            font-size: 13px;
+            margin-left: 0px;
+            line-height: 15px;
+        }
+
+        .login_signup_last_right_part .login_button_part {
+            /* width: 50px; */
+            display: flex;
+        }
+        .login_signup_last_right_part .login_button_part button {
+            width: 45px;
+            height: 45px;
+            margin-left: 12px;
+            font-size: 14px;
+        }
+        .login_signup_last_right_part .login_text_part p {
+            font-size: 12px;
+            margin-left: 94px;
+            line-height: 15px;
+        }
+        .login_signup_last_left_part {
+            padding-top: 20px;
+        }
+        .login_signup_last_right_part .login_text_part {
+            padding-top: 20px;
+        }
+        .login_signup_last_right_part .login_button_part {
+            padding-top: 15px;
+        }
+        /* signup_left_image_part_responsive_up end */
+        /* signup_left_image_part_responsive_up end */
+    
+ }
+
+/* small devices  */
+@media (min-width: 576px) and (max-width: 767.98px) {
+        /* navbar part start  */
+        .navbar-brand img {
+            width: 140px;
+            /* margin-left: 25px; */
+            margin-right: 200px;
+        }
+        .navbar-toggler i{
+            font-size: 30px;
+            color: #fff;
+            transition: .4s;
+            
+        }
+        .navbar-toggler i{
+            font-size: 30px;
+            color: #944bff;
+            transition: .4s;
+            
+        }
+        .navbar-toggler i:hover{
+            color: mediumvioletred;
+        }
+        .navbar-toggler {
+            color: #944bff;
+            transition: .4s;
+        }
+        .navbar-toggler:hover {
+            color: mediumvioletred;
+        }
+        .navbar-nav {
+            text-align: center;
+        }
+        .nav-item {
+            margin: 10px 20px 0px 20px;
+        }
+        .navber_button {
+            margin: 0 auto;
+            margin-top: 8px;
+            margin-bottom: 8px;
+            justify-content: center;
+        }
+        .data-bs-toggle{
+            border: none;
+        }
+        /* navbar part end */
+    
+        /* banner part start  */
+        #banner {
+            padding: 85px 0px 105px 0px;
+        }
+        .up_text_part {
+            margin-top: 70px;
+            margin-left: 300px;
+            text-align: center;
+        }
+        .banner_left_image {
+            width: 240px;
+            left: 0px;
+            top: 70px;
+        }
+        .banner_counter_text h1 {
+            font-size: 175px;
+            line-height: 200px;
+            margin-top: 15px;
+            margin-left: 253px;
+        }
+        .banner_btn_text p {
+            font-size: 14px;
+            line-height: 23px;
+            margin-right: 28px;
+        }
+        .bottom_banner_button a {
+            margin-bottom: 36px;
+            margin-top: 40px;
+        }
+        /* banner three div  */
+        .counter_banner_one {
+            width: 516px;
+            transform: rotate(0deg);
+            margin-left: 0px;
+        }
+        .counter_banner_two {
+            width: 516px;
+            transform: rotate(0deg);
+            margin-top: 236px;
+            margin-left: -516px;
+        }
+        .counter_banner_three {
+            width: 516px;
+            transform: rotate(0deg);
+            margin-top: 478px;
+            margin-left: -516px;
+        }
+        /* banner three div  */
+        /* banner part end */
+    
+        /* related game part start  */
+        #related_game_banner {
+            padding: 180px 0px 30px 0px;
+        }
+        .related_game_text h3 {
+            margin-top: 437px;
+            margin-bottom: -10px;
+        }
+        .related_game_text {
+            padding-bottom: 40px;
+        }
+        .related_game_image {
+            margin-bottom: 20px;
+        }
+        .related_game_overly_part .text_part {
+            padding-top: 195px;
+        }
+        /* related game part end  */
+    
+        /* unlock part satrt  */
+        #unlock {
+            padding-top: 45px;
+        }
+        .unlock_left_image{
+            margin-left: 29px;
+            width: 430px;
+        }
+        .unlock_up_text{
+            text-align: center;
+        }
+        .unlock_up_text p {
+            padding-top: 20px;
+            font-size: 14px;
+            line-height: 21px;
+            padding: 0px 32px;
+        }
+        .unlock_up_text h6 {
+            padding-top: 20px;
+            padding-bottom: 30px;
+            font-size: 14px;
+            line-height: 21px;
+        }
+        .unlock_up_button{
+            text-align: center;
+            padding-bottom: 30px;
+        }
+        /* unlock part end */
+    
+        /* picing plan part start  */
+        #pricing_plan {
+            padding-top: 40px;
+            padding-bottom: 40px;
+        }
+        .pricing_up_text {
+            margin-bottom: 20px;
+        }
+        .pricing_plan_part {
+            margin-bottom: 40px;
+        }
+        /* picing plan part end  */
+    
+        /* ask question part start  */
+        #ask_question_part {
+            padding: 30px 0px;
+        }
+        .ask_question_up_text {
+            text-align: center;
+        }
+        .ask_question_up_text h3 {
+            padding-bottom: 30px;
+        }
+    
+        /* faq */
+        .faq_question h3 {
+            font-size: 16px;
+            margin-left: 10px;
+            line-height: 15px;
+        }
+        .faq_question i {
+            margin-right: 10px;
+        }
+        .faq_answer p {
+            padding: 12px 0px;
+            margin-left: 10px;
+            font-size: 12px;
+            line-height: 20px;
+        }
+        /* faq */
+    
+        /* todyas tournament */
+        .ask_question_up_text h3 {
+            padding-bottom: 35px;
+            padding-top: 20px;
+        }
+    
+        .time_remaining_text h3 {
+            font-size: 18px;
+            line-height: 20px;
+            margin-top: -14px;
+        }
+        .countdown_one h2 {
+            font-size: 16px;
+        }
+        .countdown_one h3 {
+            font-size: 16px;
+        }
+        .countdown_one {
+            border: 2px solid #e1750b;
+            border-radius: 5px;
+            margin-left: 17px;
+        }
+    
+    
+        .member_name h3 {
+            font-size: 14px;
+            min-width: 115px;
+        }
+        .total_amaount h5 {
+            font-size: 14px;
+        }
+        .tournaments_member_part {
+            /* width: 240px; */
+        }
+        .cursor_bg_position {
+            right: 7px;
+        }
+        #payment_method {
+            padding: 20px 0px;
+        }
+        .payment_method_up_text{
+            text-align: center
+        }
+        .payment_method_up_text h3 {
+            font-size: 30px;
+            margin-bottom: 30px;
+        }
+        .payment_method_up_text h3 {
+            margin-bottom: 30px;
+            margin-top: 30px;
+        }
+    
+    
+        .payment_method_item {
+            text-align: center;
+        }
+        .payment_method_item button img {
+            width: 60px;
+        }
+        .payment_method_item button {
+            margin-right: 7px;
+        }
+    
+        /* todyas tournament */
+        /* ask question part end  */
+    
+        /* about part start  */
+        #about {
+            padding: 20px 0px;
+        }
+        .about_left_part{
+            text-align: center;
+        }
+        .about_left_part .middle_text p {
+            font-size: 13px;
+            line-height: 22px;
+            margin-bottom: 35px;
+        }
+        .button_part{
+            margin-left: 16px;
+            margin-bottom: 20px;
+        
+        }
+    
+        .important_link_middle p {
+            font-size: 14px;
+            line-height: 30px;
+            text-align: left;
+        }
+        .important_link_middle span {
+            font-size: 14px;
+            line-height: 30px;
+        }
+        .about_left_part .up_text h3 {
+            font-size: 30px;
+            margin-top: 25px;
+        }
+    
+        .security_info_part .one {
+            margin-top: 25px;
+            justify-content: center;
+        }
+
+        /* about part end */
+        .frooter_text p {
+            font-size: 14px;
+        }
+    
+        /* about us part start  */
+        /* about us part start  */
+        .about_banner_text {
+            padding: 80px 0px 40px 0px;
+        }
+        /*  */
+        .about_unlock_left_image {
+            margin-left: 49px;
+            margin-top: 425px;
+            width: 430px;
+        }
+    
+        .unlock_up_text p {
+            font-size: 12px;
+            line-height: 20px;
+            padding: 20px 7px;
+        }
+        .unlock_up_text h6 {
+            font-size: 12px;
+            line-height: 20px;
+            padding: 0 8px 30px 8px;
+        }
+        .unlock_up_button a {
+            padding: 15px 25px;
+            font-size: 20px;
+        }
+        .watch_demo i {
+            padding: 14px;
+            margin: 4px 10px 0px 30px;
+            font-size: 15px;
+        }
+        .watch_demo .demo_hover a {
+            font-size: 14px;
+            padding: 10px 16px;
+            margin-left: 10px;
+        }
+        .watch_demo_main_part {
+            justify-content: center;
+        }
+        .vbox-container {
+            margin-left: -100px;
+        }
+    
+        #about_unlock {
+            padding: 200px 0px 15px 0px;
+        }
+    
+        /* related game  */
+        #about_us_related_game_banner {
+            padding: 30px 0px 20px 0px;
+        }
+    
+        .about_us_related_game_image {
+            width: 520px;
+            margin-bottom: 30px;
+            margin-left: 9px;
+        }
+        .about_us_related_game_overly_part .about_us_text_part {
+            padding-top: 175px;
+        }
+    
+        .about_us_related_game_text {
+            padding-bottom: 40px;
+        }
+        .about_slider .slick-dots {
+            margin-top: -10px;
+        }
+        /* related game  */
+        /* about us part end */
+        /* about us part end */
+    
+    
+    
+        /* game part start  */
+        /* game part start  */
+        .games_banner_text {
+            padding: 70px 0px 45px 0;
+        }
+
+        .games_related_game_overly_part .games_text_part {
+            padding-top: 160px;
+        }
+    
+        .games_related_game_image {
+            margin-top: 330px;
+            margin-bottom: -300px;
+        }
+        #games_related_game_banner {
+            padding: 180px 0px 340px 0px;
+        }
+        /* game part end */
+        /* game part end */
+    
+    
+        /* membership plan part start */
+        /* membership plan part start */
+        #plans_pricing_plan {
+            padding-bottom: 350px;
+        }
+        .games_banner_text h1 {
+            font-size: 36px;
+        }
+        .games_banner_text h3 {
+            font-size: 20px;
+        }
+    
+        .plans_pricing_plan_part {
+            margin-top: 330px;
+            margin-bottom: -270px;
+        }
+        .bg_height_gap {
+            margin-top: -10px;
+        }
+        /* membership plan part end */
+        /* membership plan part end */
+    
+        /* contact us part start  */
+        /* contact us part start  */
+        .maps_overly {
+            padding: 260px 0px 410px 0px;
+        }
+        .maps_content {
+            margin-top: 380px;
+            margin-bottom: -355px;
+            margin-left: 110px;
+        }
+        .maps_content .text h3 {
+            font-size: 20px;
+            margin-bottom: 20px;
+        }
+        .maps_content .text p {
+            font-size: 14px;
+            line-height: 20px;
+        }
+    
+        .maps_content .icon {
+            margin-left: 20px;
+        }
+        .maps_content .icon a i {
+            font-size: 30px;
+            width: 85px;
+            height: 85px;
+            line-height: 85px;
+        }
+        /* contact us part end */
+        /* contact us part end */
+    
+        /* signup part start  */
+        /* signup part start  */
+        .signup_left_image_part img {
+            width: 550px;
+            margin-left: -13px;
+            margin-top: 280px;
+            height: 530px;
+        }
+        .signup_up_text{
+            text-align: center;
+        }
+        .signup_up_text p::after {
+            left: 225px;
+        }
+        .left_part i {
+            margin-left: -10px;
+        }
+    
+        .full_name {
+            width: 230px;
+            line-height: 20px;
+            margin-right: -10px;
+        }
+        .left_part{
+            margin-right: 14px;
+        }
+    
+        .mail_hare_signup {
+            margin-top: 25px;
+        }
+        .signup_last_left_part p {
+            font-size: 14px;
+            line-height: 17px;
+        }
+        .signup_last_right_part .text_part p {
+            font-size: 14px;
+            margin-left: 26px;
+            line-height: 17px;
+        }
+        .signup_last_left_part {
+            padding-top: 25px;
+        }
+        .signup_last_right_part .text_part {
+            padding-top: 25px;
+        }
+        /* button  */
+        .button_part {
+            margin-left: 10px;
+        }
+        .signup_last_right_part .button_part button {
+            width: 40px;
+            height: 40px;
+            font-size: 14px;
+            margin-top: 10px;
+        }
+        .signup_last_right_part .button_part {
+            padding-top: 0px;
+        }
+        /* button  */
+        /* signup part end */
+        /* signup part end */
+    
+        /* login part start  */
+        /* login part start  */
+        .login_signup_left_image_part img {
+            width: 550px;
+            margin-left: -13px;
+            margin-top: 280px;
+            height: 530px;
+        }
+        .login_signup_up_text{
+            text-align: center;
+        }
+        .login_signup_up_text p::after {
+            left: 225px;
+        }
+        .login_mail_hare_signup {
+            margin-top: 25px;
+        }
+    
+        .login_signup_last_left_part a {
+            font-size: 14px;
+            line-height: 15px;
+        }
+        .login_signup_last_left_part {
+            padding: 20px 0px;
+        }
+        .login_signup_last_right_part .login_text_part p {
+            font-size: 14px;
+            margin-left: 86px;
+            line-height: 15px;
+        }
+        .login_signup_last_right_part .login_text_part {
+            padding: 20px 0px;
+        }
+        /* login part end */
+        /* login part end */
+ }
+
+/* x-small devices */
+@media (min-width: 320px) and (max-width: 575.98px) { 
+    /* navbar part start  */
+    .navbar-brand img{
+        width: 138px;
+    }
+    .navbar-toggler i{
+        font-size: 25px;
+        color: #944bff;
+        transition: .4s;
+    }
+    .navbar-toggler i:hover{
+        color: mediumvioletred;
+    }
+    .navbar-toggler {
+        color: #944bff;
+        transition: .4s;
+    }
+    .navbar-toggler:hover {
+        color: mediumvioletred;
+    }
+    .navbar-nav {
+        text-align: center;
+    }
+    .nav-item {
+        margin: 10px 20px -10px 20px;
+    }
+    .navber_button {
+        margin: 0 auto;
+        margin-top: 8px;
+        margin-bottom: 8px;
+        justify-content: center;
+    }
+    /* navbar part end */
+
+    /* banner part start  */
+    .up_text_part {
+        margin-top: 300px;
+        margin-left: 9px;
+        text-align: center;
+    }
+    .banner_left_image {
+        width: 290px;
+        left: 3px;
+        top: -20px;
+    }
+    .banner_counter_text h1 {
+        font-size: 201px;
+        line-height: 199px;
+        margin-top: 25px;
+    }
+    .banner_btn_text p {
+        font-size: 14px;
+        line-height: 23px;
+        margin-right: 28px;
+    }
+    .bottom_banner_button a {
+        margin-bottom: 36px;
+        margin-top: 40px;
+    }
+    /* banner three div  */
+    .counter_banner_one {
+        width: 300px;
+        transform: rotate(0deg);
+        margin-left: -2px;
+    }
+    .counter_banner_two {
+        width: 300px;
+        transform: rotate(0deg);
+        margin-top: 236px;
+        margin-left: -300px;
+    }
+    .counter_banner_three {
+        width: 300px;
+        transform: rotate(0deg);
+        margin-top: 478px;
+        margin-left: -300px;
+    }
+    /* banner three div  */
+    /* banner part end */
+
+    /* related game part start  */
+    #related_game_banner {
+        padding: 180px 0px 30px 0px;
+    }
+    .related_game_text h3 {
+        margin-top: 437px;
+        margin-bottom: -10px;
+    }
+    .related_game_text {
+        padding-bottom: 40px;
+    }
+    .related_game_image {
+        margin-bottom: 20px;
+    }
+    .related_game_overly_part .text_part {
+        padding-top: 90px;
+    }
+    /* related game part end  */
+
+    /* unlock part satrt  */
+    #unlock {
+        padding-top: 45px;
+    }
+    .unlock_left_image{
+        margin-left: -20px;
+    }
+    .unlock_up_text{
+        text-align: center;
+    }
+    .unlock_up_text p {
+        padding-top: 20px;
+        font-size: 14px;
+        line-height: 21px;
+        padding: 0px 32px;
+    }
+    .unlock_up_text h6 {
+        padding-top: 20px;
+        padding-bottom: 30px;
+        font-size: 14px;
+        line-height: 21px;
+    }
+    .unlock_up_button{
+        text-align: center;
+        padding-bottom: 30px;
+    }
+    /* unlock part end */
+
+    /* picing plan part start  */
+    #pricing_plan {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .pricing_up_text {
+        margin-bottom: 20px;
+    }
+    .pricing_plan_part {
+        margin-bottom: 40px;
+    }
+    .pricing_button a {
+        padding: 14px 25px;
+        font-size: 16px;
+    }
+    /* picing plan part end  */
+
+    /* ask question part start  */
+    #ask_question_part {
+        padding: 30px 0px;
+    }
+    .ask_question_up_text {
+        text-align: center;
+    }
+    .ask_question_up_text h3 {
+        padding-bottom: 30px;
+    }
+
+    /* faq */
+    .faq_question h3 {
+        font-size: 12px;
+        margin-left: 10px;
+        line-height: 15px;
+    }
+    .faq_question i {
+        margin-right: 10px;
+    }
+    .faq_answer p {
+        padding: 12px 10px;
+        margin-left: -1px;
+        font-size: 12px;
+        line-height: 20px;
+        text-align: center;
+    }
+    /* faq */
+
+    /* todyas tournament */
+    .ask_question_up_text h3 {
+        padding-bottom: 35px;
+        padding-top: 20px;
+    }
+
+    .time_remaining_text h3 {
+        font-size: 16px;
+        line-height: 20px;
+        margin-top: -14px;
+    }
+    .countdown_one h2 {
+        font-size: 15px;
+    }
+    .countdown_one h3 {
+        font-size: 14px;
+    }
+    .countdown_one {
+        border: 2px solid #e1750b;
+        border-radius: 5px;
+        margin-left: 17px;
+    }
+
+
+    .member_name h3 {
+        font-size: 11px;
+        min-width: 88px;
+    }
+    .total_amaount h5 {
+        font-size: 12px;
+    }
+    .tournaments_member_part {
+        /* width: 240px; */
+    }
+    .cursor_bg_position {
+        right: 7px;
+    }
+    #payment_method {
+        padding: 20px 0px;
+    }
+    .payment_method_up_text{
+        text-align: center
+    }
+    .payment_method_up_text h3 {
+        font-size: 30px;
+        margin-bottom: 30px;
+    }
+    .payment_method_up_text h3 {
+        margin-bottom: 30px;
+        margin-top: 30px;
+    }
+
+
+    .payment_method_item {
+        margin-left: 8px;
+    }
+    .payment_method_item button img {
+        width: 47px;
+    }
+    .payment_method_item button {
+        margin-right: 7px;
+    }
+
+    /* todyas tournament */
+    /* ask question part end  */
+
+    /* about part start  */
+    #about {
+        padding: 20px 0px;
+    }
+    .about_left_part{
+        text-align: center;
+    }
+    .about_left_part .middle_text p {
+        font-size: 13px;
+        line-height: 22px;
+        margin-bottom: 35px;
+    }
+    .button_part{
+        margin-left: 16px;
+        margin-bottom: 20px;
+    
+    }
+
+    .important_link_middle p {
+        font-size: 14px;
+        line-height: 30px;
+        text-align: left;
+    }
+    .important_link_middle span {
+        font-size: 14px;
+        line-height: 30px;
+    }
+    .about_left_part .up_text h3 {
+        font-size: 30px;
+        margin-top: 25px;
+    }
+
+    .security_info_part .one {
+        margin-top: 25px;
+        justify-content: center;
+    }
+    /* about part end */
+    .frooter_text p {
+        font-size: 11px;
+    }
+
+    /* about us part start  */
+    /* about us part start  */
+    .about_banner_text {
+        padding: 0px 0px 40px 0px;
+    }
+    /*  */
+    .about_unlock_left_image {
+        margin-left: 0px;
+        margin-top: 420px;
+    }
+
+    .unlock_up_text p {
+        font-size: 12px;
+        line-height: 20px;
+        padding: 20px 7px;
+    }
+    .unlock_up_text h6 {
+        font-size: 12px;
+        line-height: 20px;
+        padding: 0 8px 30px 8px;
+    }
+    .unlock_up_button a {
+        padding: 10px 15px;
+        font-size: 18px;
+    }
+    .watch_demo i {
+        padding: 14px;
+        margin: 4px 10px 0px 30px;
+        font-size: 15px;
+    }
+    .watch_demo .demo_hover a {
+        font-size: 14px;
+        padding: 10px 16px;
+        margin-left: 10px;
+    }
+    .vbox-content {
+        margin-left: 25px;
+    }
+
+    #about_unlock {
+        padding: 200px 0px 15px 0px;
+    }
+
+    /* related game  */
+    #about_us_related_game_banner {
+        padding: 30px 0px 20px 0px;
+    }
+
+    .about_us_related_game_image {
+        width: 302px;
+        margin-bottom: 30px;
+        margin-left: 9px;
+    }
+    .about_us_related_game_overly_part .about_us_text_part {
+        padding-top: 80px;
+    }
+
+    .games_related_game_overly_part .games_text_part {
+        padding-top: 80px;
+    }
+    .about_us_related_game_text {
+        padding-bottom: 40px;
+    }
+    .about_slider .slick-dots {
+        margin-top: -10px;
+    }
+    /* related game  */
+    /* about us part end */
+    /* about us part end */
+
+
+
+    /* game part start  */
+    /* game part start  */
+    .games_banner_text {
+        padding: 0px 0px 45px 0;
+    }
+
+    .games_related_game_image {
+        margin-top: 330px;
+        margin-bottom: -300px;
+    }
+    #games_related_game_banner {
+        padding: 180px 0px 340px 0px;
+    }
+    /* game part end */
+    /* game part end */
+
+
+    /* membership plan part start */
+    /* membership plan part start */
+    #plans_pricing_plan {
+        padding-bottom: 350px;
+    }
+    .games_banner_text h1 {
+        font-size: 36px;
+    }
+    .games_banner_text h3 {
+        font-size: 20px;
+    }
+
+    .plans_pricing_plan_part {
+        margin-top: 330px;
+        margin-bottom: -270px;
+    }
+    .bg_height_gap {
+        margin-top: -10px;
+    }
+    .plans_pricing_button  a {
+        padding: 14px 25px;
+        font-size: 16px;
+    }
+    /* membership plan part end */
+    /* membership plan part end */
+
+    /* contact us part start  */
+    /* contact us part start  */
+    .maps_overly {
+        padding: 260px 0px 410px 0px;
+    }
+    .maps_content {
+        margin-top: 380px;
+        margin-bottom: -355px;
+    }
+    .maps_content .text h3 {
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+    .maps_content .text p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .maps_content .icon {
+        margin-left: 20px;
+    }
+    .maps_content .icon a i {
+        font-size: 30px;
+        width: 85px;
+        height: 85px;
+        line-height: 85px;
+    }
+    /* contact us part end */
+    /* contact us part end */
+
+    /* signup part start  */
+    /* signup part start  */
+    .signup_left_image_part img {
+        width: 313px;
+        margin-left: -5px;
+        margin-top: 280px;
+        height: 430px;
+    }
+    .signup_up_text{
+        text-align: center;
+    }
+    .signup_up_text p::after {
+        left: 117px;
+    }
+
+    .full_name {
+        width: 142px;
+        line-height: 20px;
+        margin-right: -1px;
+    }
+    .left_part{
+        margin-right: 14px;
+    }
+
+    .mail_hare_signup {
+        margin-top: 25px;
+    }
+    .signup_last_left_part p {
+        font-size: 14px;
+        line-height: 17px;
+    }
+    .signup_last_right_part .text_part p {
+        font-size: 14px;
+        margin-left: 26px;
+        line-height: 17px;
+    }
+    .signup_last_left_part {
+        padding-top: 25px;
+    }
+    .signup_last_right_part .text_part {
+        padding-top: 25px;
+    }
+    /* button  */
+    .button_part {
+        margin-left: 10px;
+    }
+    .signup_last_right_part .button_part button {
+        width: 40px;
+        height: 40px;
+        font-size: 14px;
+        margin-top: 10px;
+    }
+    .signup_last_right_part .button_part {
+        padding-top: 0px;
+    }
+    /* button  */
+    /* signup part end */
+    /* signup part end */
+
+    /* login part start  */
+    /* login part start  */
+    .login_signup_left_image_part img {
+        width: 313px;
+        margin-left: -5px;
+        margin-top: 280px;
+        height: 430px;
+    }
+    .login_signup_up_text{
+        text-align: center;
+    }
+    .login_signup_up_text p::after {
+        left: 117px;
+    }
+    .login_mail_hare_signup {
+        margin-top: 25px;
+    }
+
+    .login_signup_last_left_part a {
+        font-size: 14px;
+        line-height: 15px;
+    }
+    .login_signup_last_left_part {
+        padding: 20px 0px;
+    }
+    .login_signup_last_right_part .login_text_part p {
+        font-size: 14px;
+        margin-left: 86px;
+        line-height: 15px;
+    }
+    .login_signup_last_right_part .login_text_part {
+        padding: 20px 0px;
+    }
+    /* login part end */
+    /* login part end */
+
+
+}
